@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "electron": "^31.1.0",
+    "electron-packager": "^17.1.2",
+    "ngx-electron": "^2.2.0"
+  }
+}

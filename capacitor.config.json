@@ -1,0 +1,6 @@
+{
+    "appId": "com.example.app",
+    "appName": "ProyectoAngularFullHibrido",
+    "bundledWebRuntime": false,
+    "webDir": "./ProyectoAngularFullHibrido/proyecto-angular-full-hibrido"
+}
