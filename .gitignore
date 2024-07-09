@@ -1,1 +1,3 @@
 /node_modules
+./IonicElectronApp/dist
+./IonicElectronApp/node_modules

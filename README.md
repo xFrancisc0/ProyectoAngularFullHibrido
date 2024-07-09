@@ -1,9 +1,12 @@
 0.- npm install -g capacitor
-0.5.- npm install @capacitor/core @capacitor/cli@latest @capacitor-community/electron
+npm install -g @angular/cli 
+npm install -g @ionic/cli
+0.5.- npm install capacitor @capacitor/core @capacitor/cli@latest @capacitor-community/electron
 1.- npm install ngx-electron electron   (tambien    npm install electron --save-dev)
 2.- npm install electron-packager (empaquetar para ejecutar en SO)
-2.3.- npm cache clean --force
-2.5.- npm install
+2.3.- ionic start IonicElectronApp blank --type=angular
+
+Dentro de proyecto:
 3.- ng serve (Probar aplicaciones)
 4.- ctrl+c
 5.- ng build
@@ -16,6 +19,7 @@ Crear capacitor.config.json
     "webDir": "./ProyectoAngularFullHibrido/proyecto-angular-full-hibrido"
 }
 
+Fuera de proyecto:
 npx cap init ProyectoAngularFullHibrido com.example.myapp
 npx cap add electron
 npx cap open electron
@@ -29,12 +33,11 @@ npx cap init ProyectoAngularFullHibrido com.example.myapp
 npx cap add electron
 npx cap open electron
 
-En git bash escribir: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
-Encontrar donde se instaló
+En git bash escribir: https://4geeks.com/es/how-to/como-instalar-nvm-en-windows (coreybutler/nvm-windows)
+Instalar ultima version de node: nvm install 20.15.1
+Instalar el node que nos sirve para ionic-electron app: nvm install 18.20.4
+Instalar npm: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-Ve al menú Archivo -> Preferencias -> Configuración.
 
-En la barra de búsqueda de configuración, escribe terminal.integrated.env.windows.
-
-Añade la ruta completa de la carpeta bin de nvm al valor de PATH. Por ejemplo: C:\Users\Franc\.nvm
+Usar node que nos sirve: nvm use 18.20.4
 )
